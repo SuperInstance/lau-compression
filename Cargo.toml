@@ -1,0 +1,13 @@
+[package]
+name = "lau-compression"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Data compression algorithms: Huffman, RLE, LZW, BWT, MTF, arithmetic coding, delta encoding, LZ77, and entropy analysis"
+repository = "https://github.com/SuperInstance/lau-compression"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
